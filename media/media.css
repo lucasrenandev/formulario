@@ -5,14 +5,23 @@
     }
 }
 
-@media (max-width: 360px) {
-    
+
+
+@media (max-width: 370px) {
+
     section {
         width: 300px;
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 340px) {
+
+    section {
+        width: 280px;
+    }
+}
+
+@media (max-width: 311px) {
 
     section {
         width: 250px;
