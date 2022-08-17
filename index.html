@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+
+    <section>
+        <div class="title">
+            <h1>Contato</h1>
+        </div><!--end title-->
+
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <div class="dados">
+                <label for="#">Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            </div><!--end dados-->
+
+            <div class="dados">
+                <label for="#">E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
+            </div><!--end dados-->
+
+            <div class="dados">
+                <label for="#">Mensagem</label>
+                <textarea name="mensagem" id="txtmsg" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            </div><!--end dados-->
+
+            <div class="button">
+                <button type="submit">Enviar</button>
+            </div><!--end button-->
+
+            <input type="hidden" name="accessKey" value="dee174cf-3055-4585-bb02-d51f63f4f387">
+            <input type="hidden" name="redirectTo" value="http://localhost:8080/pag2.html">
+            
+        </form><!--end form-->
+    </section><!--end section-->
+
+</body>
+</html>
