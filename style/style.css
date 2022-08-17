@@ -62,7 +62,7 @@ section form .dados input {
     outline: none;
     font-size: 1em;
     font-weight: 500;
-    padding: 0 20px;
+    padding: 0 10px;
     transition: border-radius 0.5s ease;
 }
 
@@ -73,7 +73,7 @@ section form .dados input:focus {
 section form .dados textarea {
     font-size: 1em;
     font-weight: 500;
-    padding: 15px 20px;
+    padding: 10px;
     border: none;
     outline: none;
     margin-bottom: 10px;
